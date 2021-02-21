@@ -1,0 +1,1 @@
+C:/cygwin64/bin/gcc.exe -g  -Wl,--enable-auto-import CMakeFiles/ex3.dir/calculator.c.o CMakeFiles/ex3.dir/heat_eqn.c.o CMakeFiles/ex3.dir/reader.c.o  -o ex3.exe -Wl,--out-implib,libex3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

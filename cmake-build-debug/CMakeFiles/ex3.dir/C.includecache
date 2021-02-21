@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/calculator.c
+endian.h
+-
+stdlib.h
+-
+math.h
+-
+stdio.h
+-
+
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/calculator.h
+stdlib.h
+-
+
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/heat_eqn.h
+
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/reader.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+math.h
+-
+assert.h
+-
+heat_eqn.h
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/heat_eqn.h
+calculator.h
+/cygdrive/c/Users/user/Documents/2nd/C/ex3/cmake-build-debug/calculator.h
+
